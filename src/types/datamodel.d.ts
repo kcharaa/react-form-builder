@@ -23,7 +23,7 @@ namespace FormBuilder {
   // Describes an individual user input element
   interface Element {
     id: string;
-    question_text: string;
+    label: string;
     metadata: ElementMeta;
     type:
       | 'boolean' // Yes / No question

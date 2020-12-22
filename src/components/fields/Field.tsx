@@ -13,7 +13,7 @@ function Field({ element }: FieldProps): JSX.Element {
 
     return (
         <div className={`form-field ${error ? 'error' : ''}`}>
-            <label className='field-label' htmlFor={element.id}>{element.question_text}</label>
+            <label className='field-label' htmlFor={element.id}>{element.label}</label>
             {fieldFactory({
                 element,
                 value,
