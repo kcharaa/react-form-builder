@@ -7,12 +7,12 @@ The JSON array in `./src/data/form_instructions.json` is an example of the instr
 
 ## Supported Fields
 
-- 1. Boolean field
-- 2. Text field
-- 3. Text area field
-- 4. Multiselect field
+- Boolean field
+- Text field
+- Text area field
+- Multiselect field
 
 ### Getting started
 
-- 1. `npm install` to install dependencies.
-- 2. Run `npm start` to launch the app.
+- `npm install` to install dependencies.
+- Run `npm start` to launch the app.
